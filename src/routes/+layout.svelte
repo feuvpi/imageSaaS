@@ -1,5 +1,4 @@
 <script>
-	import Header from './Header.svelte';
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
@@ -12,7 +11,9 @@
 	</main>
 
 	<footer>
-		<p>Are you interested in buying this App? <a href="https://kit.svelte.dev">Reach out</a> the developers.</p>
+		<p>
+			Are you interested in buying this App? <a href="https://kit.svelte.dev">Reach out</a> the developers.
+		</p>
 	</footer>
 </div>
 
